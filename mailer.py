@@ -5,7 +5,7 @@ from email.mime.multipart import MIMEMultipart
 import json
 
 class Emailer:
-    def __init__(self,addr='',pw='',receiver='',subject=None,=None):
+    def __init__(self,addr='',pw='',receiver='',subject=None):
         self.addr = addr
         self.pw = pw
         self.msg = MIMEMultipart('alternative')
